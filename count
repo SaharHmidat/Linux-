@@ -1,0 +1,9 @@
+import os
+def listFiles(filepath):
+    with open(filepath) as fo:
+        line = fo.readlines()[1:2]
+        splitted = line[0].split("\"")
+        pathList=splitted[1]
+
+    for file in os.listdir(pathList):
+        print(file)

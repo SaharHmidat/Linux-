@@ -1,0 +1,2 @@
+Rename <"C:\FolderOne\last.txt"> <"C:\FolderOne\File10.txt"> <"C:\FolderOne">
+Sort <"C:\FolderTwo\SmallerThanThreshold"> <"name">
